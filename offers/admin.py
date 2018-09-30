@@ -1,5 +1,14 @@
 from django.contrib import admin
 
-from .models import Offer
+from .models import Offer, Chat
 
-admin.site.register(Offer)
+
+class ChatInline(admin.TabularInline):
+    model = Chat
+
+
+class ChatAdmin(admin.ModelAdmin):
+    inlines = [ChatInline]
+
+
+admin.site.register(Offer, ChatAdmin)

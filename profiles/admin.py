@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Event
+from .models import Profile
 from offers.models import Offer
 
 
@@ -12,4 +12,4 @@ class OfferAdmin(admin.ModelAdmin):
     inlines = [OfferInline]
 
 
-admin.site.register(Event, OfferAdmin)
+admin.site.register(Profile, OfferAdmin)
