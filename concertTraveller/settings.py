@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'tests.apps.TestsConfig',
     'core.apps.CoreConfig',
     'events.apps.EventsConfig',
     'offers.apps.OffersConfig',
