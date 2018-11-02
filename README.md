@@ -20,7 +20,7 @@ Used technologies:
 
 In the terminal:
 
-2. Run `pip install -r requirements.txt` in the main directory
-3. Run `python manage.py runserver`
+3. Run `pip install -r requirements.txt` in the main directory
+4. Run `python manage.py runserver`
 
 Go to [http://localhost:8080](http://localhost:8080) in your favourite browser to use the app.
